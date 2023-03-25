@@ -1,0 +1,3 @@
+[submodule "data/CovidTimelineCanada"]
+	path = data/CovidTimelineCanada
+	url = https://github.com/ccodwg/CovidTimelineCanada

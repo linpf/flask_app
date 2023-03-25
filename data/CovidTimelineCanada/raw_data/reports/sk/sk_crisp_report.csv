@@ -1,0 +1,721 @@
+"date","source","date_start","date_end","region","sub_region_1","cases","deaths","new_hospitalizations","new_icu","positivity_rate"
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK",,488,16,170,6,9
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Far North West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Far North Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Far North East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","North West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","North Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","North East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Saskatoon",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Central West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Central East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Regina",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","South West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","South Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","South East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-11","2022-09-17","SK","Unknown",488,16,,,9
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK",,469,7,189,9,8.8
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Far North West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Far North Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Far North East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","North West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","North Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","North East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Saskatoon",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Central West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Central East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Regina",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","South West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","South Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","South East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-18","2022-09-24","SK","Unknown",469,7,,,8.8
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK",,556,11,174,9,11
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Far North West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Far North Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Far North East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","North West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","North Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","North East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Saskatoon",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Central West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Central East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Regina",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","South West",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","South Central",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","South East",,,,,
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-09-25","2022-10-01","SK","Unknown",556,11,,,11
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK",,474,5,162,9,9.3
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Far North West",,,,,10.3
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Far North Central",,,,,0
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Far North East",,,,,11.1
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","North West",,,,,11.8
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","North Central",,,,,6.3
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","North East",,,,,5.2
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Saskatoon",,,,,9.4
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Central West",,,,,12
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Central East",,,,,9.4
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Regina",,,,,9.2
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","South West",,,,,7.1
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","South Central",,,,,11.3
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","South East",,,,,13.5
+"2022-10-13","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137344/CRISP%252BREPORT%252B2022%252B10%252B13.pdf","2022-10-02","2022-10-08","SK","Unknown",474,5,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK",,556,15,187,10,11
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Far North West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Far North Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Far North East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","North West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","North Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","North East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Saskatoon",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Central West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Central East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Regina",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","South West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","South Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","South East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-09-25","2022-10-01","SK","Unknown",556,15,,,11
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK",,474,13,197,11,9.3
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Far North West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Far North Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Far North East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","North West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","North Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","North East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Saskatoon",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Central West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Central East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Regina",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","South West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","South Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","South East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-02","2022-10-08","SK","Unknown",474,13,,,9.3
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK",,488,11,165,14,9.8
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Far North West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Far North Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Far North East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","North West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","North Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","North East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Saskatoon",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Central West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Central East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Regina",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","South West",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","South Central",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","South East",,,,,
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-09","2022-10-15","SK","Unknown",488,11,,,9.8
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK",,666,15,187,8,11.6
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Far North West",,,,,10.7
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Far North Central",,,,,0
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Far North East",,,,,5.7
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","North West",,,,,15.4
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","North Central",,,,,10.3
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","North East",,,,,18
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Saskatoon",,,,,13.9
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Central West",,,,,18.9
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Central East",,,,,15.5
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Regina",,,,,9.9
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","South West",,,,,13.9
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","South Central",,,,,13.2
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","South East",,,,,22.4
+"2022-10-27","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137597/CRISP%252BREPORT%252B2022%252B10%252B27.pdf","2022-10-16","2022-10-22","SK","Unknown",666,15,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK",,488,13,180,17,9.8
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Far North West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Far North Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Far North East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","North West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","North Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","North East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Saskatoon",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Central West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Central East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Regina",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","South West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","South Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","South East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-09","2022-10-15","SK","Unknown",488,13,,,9.8
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK",,666,24,211,10,11.6
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Far North West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Far North Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Far North East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","North West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","North Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","North East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Saskatoon",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Central West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Central East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Regina",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","South West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","South Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","South East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-16","2022-10-22","SK","Unknown",666,24,,,11.6
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK",,800,17,194,10,11.8
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Far North West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Far North Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Far North East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","North West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","North Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","North East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Saskatoon",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Central West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Central East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Regina",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","South West",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","South Central",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","South East",,,,,
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-23","2022-10-29","SK","Unknown",800,17,,,11.8
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK",,600,22,164,15,9.9
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Far North West",,,,,6.8
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Far North Central",,,,,0
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Far North East",,,,,4.3
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","North West",,,,,9.8
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","North Central",,,,,7.3
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","North East",,,,,7.6
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Saskatoon",,,,,11.9
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Central West",,,,,11.7
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Central East",,,,,11.6
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Regina",,,,,12.4
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","South West",,,,,12.5
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","South Central",,,,,12.5
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","South East",,,,,11.1
+"2022-11-10","https://pubsaskdev.blob.core.windows.net/pubsask-prod/137986/CRISP%252BREPORT%252B2022%252B11%252B10.pdf","2022-10-30","2022-11-05","SK","Unknown",600,22,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK",,800,20,197,11,11.8
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Far North West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Far North Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Far North East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","North West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","North Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","North East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Saskatoon",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Central West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Central East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Regina",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","South West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","South Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","South East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-23","2022-10-29","SK","Unknown",800,20,,,11.8
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK",,600,28,180,15,9.9
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Far North West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Far North Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Far North East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","North West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","North Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","North East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Saskatoon",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Central West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Central East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Regina",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","South West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","South Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","South East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-10-30","2022-11-05","SK","Unknown",600,28,,,9.9
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK",,448,12,154,10,7.9
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Far North West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Far North Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Far North East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","North West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","North Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","North East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Saskatoon",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Central West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Central East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Regina",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","South West",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","South Central",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","South East",,,,,
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-06","2022-11-12","SK","Unknown",448,12,,,7.9
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK",,453,13,140,13,7.2
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Far North West",,,,,4.7
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Far North Central",,,,,0
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Far North East",,,,,6.7
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","North West",,,,,8.3
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","North Central",,,,,7.5
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","North East",,,,,8.3
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Saskatoon",,,,,8.9
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Central West",,,,,10.3
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Central East",,,,,10.1
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Regina",,,,,7.8
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","South West",,,,,9.1
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","South Central",,,,,5.7
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","South East",,,,,10.9
+"2022-11-24","https://pubsaskdev.blob.core.windows.net/pubsask-prod/138096/Nov%252B24%252BCRISP%252BREPORT.pdf","2022-11-13","2022-11-19","SK","Unknown",453,13,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK",,448,13,161,10,7.9
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Far North West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Far North Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Far North East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","North West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","North Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","North East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Saskatoon",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Central West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Central East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Regina",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","South West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","South Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","South East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-06","2022-11-12","SK","Unknown",448,13,,,7.9
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK",,453,18,155,13,7.2
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Far North West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Far North Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Far North East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","North West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","North Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","North East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Saskatoon",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Central West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Central East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Regina",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","South West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","South Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","South East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-13","2022-11-19","SK","Unknown",453,18,,,7.2
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK",,418,21,155,6,6.8
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Far North West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Far North Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Far North East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","North West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","North Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","North East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Saskatoon",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Central West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Central East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Regina",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","South West",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","South Central",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","South East",,,,,
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-20","2022-11-26","SK","Unknown",418,21,,,6.8
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK",,396,20,117,8,6.6
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Far North West",,,,,16.7
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Far North Central",,,,,0
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Far North East",,,,,8
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","North West",,,,,7.7
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","North Central",,,,,7.1
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","North East",,,,,9.7
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Saskatoon",,,,,10.1
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Central West",,,,,7.5
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Central East",,,,,7.2
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Regina",,,,,7.4
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","South West",,,,,6.4
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","South Central",,,,,4.5
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","South East",,,,,9.4
+"2022-12-08","https://publications.saskatchewan.ca:443/api/v1/products/119878/formats/138332/download","2022-11-27","2022-12-03","SK","Unknown",396,20,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK",,489,21,162,16,6.8
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Far North West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Far North Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Far North East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","North West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","North Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","North East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Saskatoon",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Central West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Central East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Regina",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","South West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","South Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","South East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-20","2022-11-26","SK","Unknown",489,21,,,6.8
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK",,461,20,126,9,6.6
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Far North West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Far North Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Far North East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","North West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","North Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","North East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Saskatoon",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Central West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Central East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Regina",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","South West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","South Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","South East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-11-27","2022-12-03","SK","Unknown",461,20,,,6.6
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK",,427,16,116,7,6.6
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Far North West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Far North Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Far North East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","North West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","North Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","North East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Saskatoon",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Central West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Central East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Regina",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","South West",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","South Central",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","South East",,,,,
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-04","2022-12-10","SK","Unknown",427,16,,,6.6
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK",,376,5,105,4,5.8
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Far North West",,,,,9.3
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Far North Central",,,,,11.1
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Far North East",,,,,4.3
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","North West",,,,,9.1
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","North Central",,,,,9.8
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","North East",,,,,7.9
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Saskatoon",,,,,8.6
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Central West",,,,,6.3
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Central East",,,,,7.1
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Regina",,,,,6.2
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","South West",,,,,6
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","South Central",,,,,4.1
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","South East",,,,,7.4
+"2022-12-29","https://publications.saskatchewan.ca/api/v1/products/120036/formats/138519/download","2022-12-11","2022-12-17","SK","Unknown",376,5,,,4
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK",,427,16,120,8,6.6
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Far North West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Far North Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Far North East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","North West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","North Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","North East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Saskatoon",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Central West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Central East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Regina",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","South West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","South Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","South East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-04","2022-12-10","SK","Unknown",427,16,,,6.6
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK",,376,11,116,7,5.8
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Far North West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Far North Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Far North East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","North West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","North Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","North East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Saskatoon",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Central West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Central East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Regina",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","South West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","South Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","South East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-11","2022-12-17","SK","Unknown",376,11,,,5.8
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK",,326,7,103,8,5.8
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Far North West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Far North Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Far North East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","North West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","North Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","North East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Saskatoon",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Central West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Central East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Regina",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","South West",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","South Central",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","South East",,,,,
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-18","2022-12-24","SK","Unknown",326,7,,,5.8
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK",,302,3,92,8,6.7
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Far North West",10,,,,13.9
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Far North Central",2,,,,100
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Far North East",6,,,,16.7
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","North West",18,,,,8.9
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","North Central",14,,,,9.2
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","North East",2,,,,2.4
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Saskatoon",64,,,,8
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Central West",11,,,,14.7
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Central East",25,,,,7
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Regina",32,,,,6.5
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","South West",1,,,,1.2
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","South Central",11,,,,5.9
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","South East",15,,,,8.4
+"2023-01-06","https://publications.saskatchewan.ca:443/api/v1/products/120056/formats/138599/download","2022-12-25","2022-12-31","SK","Unknown",91,3,,,5.1
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK",,326,7,106,8,5.8
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Far North West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Far North Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Far North East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","North West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","North Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","North East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Saskatoon",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Central West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Central East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Regina",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","South West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","South Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","South East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-18","2022-12-24","SK","Unknown",326,7,,,5.8
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK",,302,3,99,9,6.7
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Far North West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Far North Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Far North East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","North West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","North Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","North East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Saskatoon",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Central West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Central East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Regina",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","South West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","South Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","South East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2022-12-25","2022-12-31","SK","Unknown",302,3,,,6.7
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK",,371,11,119,10,6.9
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Far North West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Far North Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Far North East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","North West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","North Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","North East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Saskatoon",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Central West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Central East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Regina",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","South West",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","South Central",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","South East",,,,,
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-01","2023-01-07","SK","Unknown",371,11,,,6.9
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK",,317,5,81,7,5.4
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Far North West",6,,,,7.3
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Far North Central",0,,,,0
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Far North East",1,,,,1.8
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","North West",22,,,,9.1
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","North Central",13,,,,6.7
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","North East",7,,,,6.6
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Saskatoon",64,,,,6.9
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Central West",7,,,,9.9
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Central East",34,,,,8.7
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Regina",35,,,,8.3
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","South West",8,,,,5.1
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","South Central",5,,,,2.1
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","South East",10,,,,5.1
+"2023-01-19","https://publications.saskatchewan.ca:443/api/v1/products/120140/formats/138705/download","2023-01-08","2023-01-14","SK","Unknown",105,5,,,3.8
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK",,371,11,127,11,6.9
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Far North West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Far North Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Far North East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","North West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","North Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","North East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Saskatoon",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Central West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Central East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Regina",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","South West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","South Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","South East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-01","2023-01-07","SK","Unknown",371,11,,,6.9
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK",,317,7,88,8,5.4
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Far North West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Far North Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Far North East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","North West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","North Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","North East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Saskatoon",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Central West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Central East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Regina",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","South West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","South Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","South East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-08","2023-01-14","SK","Unknown",317,7,,,5.4
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK",,273,11,76,3,4.9
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Far North West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Far North Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Far North East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","North West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","North Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","North East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Saskatoon",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Central West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Central East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Regina",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","South West",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","South Central",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","South East",,,,,
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-15","2023-01-21","SK","Unknown",273,11,,,4.9
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK",,242,7,61,5,4.4
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Far North West",6,,,,9
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Far North Central",0,,,,0
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Far North East",0,,,,0
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","North West",9,,,,4.6
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","North Central",10,,,,5.1
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","North East",5,,,,4.6
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Saskatoon",69,,,,8.2
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Central West",9,,,,12.7
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Central East",21,,,,6.3
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Regina",30,,,,6.5
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","South West",10,,,,9.5
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","South Central",3,,,,1.4
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","South East",10,,,,5.4
+"2023-02-02","https://publications.saskatchewan.ca/api/v1/products/120210/formats/138780/download","2023-01-22","2023-01-28","SK","Unknown",60,7,,,2.3
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK",,273,12,83,4,4.9
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Far North West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Far North Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Far North East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","North West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","North Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","North East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Saskatoon",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Central West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Central East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Regina",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","South West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","South Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","South East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-15","2023-01-21","SK","Unknown",273,12,,,4.9
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK",,242,10,77,6,4.4
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Far North West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Far North Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Far North East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","North West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","North Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","North East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Saskatoon",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Central West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Central East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Regina",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","South West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","South Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","South East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-22","2023-01-28","SK","Unknown",242,10,,,4.4
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK",,275,6,79,3,6.1
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Far North West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Far North Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Far North East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","North West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","North Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","North East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Saskatoon",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Central West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Central East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Regina",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","South West",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","South Central",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","South East",,,,,
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-01-29","2023-02-04","SK","Unknown",275,6,,,6.1
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK",,207,9,59,5,6.4
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Far North West",4,,,,7.4
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Far North Central",1,,,,50
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Far North East",1,,,,4.2
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","North West",12,,,,8.1
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","North Central",7,,,,5.2
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","North East",10,,,,9.2
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Saskatoon",57,,,,8.9
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Central West",1,,,,2.6
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Central East",6,,,,3.1
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Regina",32,,,,9
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","South West",3,,,,4.8
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","South Central",8,,,,7.5
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","South East",7,,,,4.9
+"2023-02-16","https://publications.saskatchewan.ca:443/api/v1/products/120265/formats/138884/download","2023-02-05","2023-02-11","SK","Unknown",58,9,,,4.8
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK",,275,6,86,4,6.1
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Far North West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Far North Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Far North East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","North West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","North Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","North East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Saskatoon",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Central West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Central East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Regina",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","South West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","South Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","South East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-01-29","2023-02-04","SK","Unknown",275,6,,,6.1
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK",,207,10,67,5,6.4
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Far North West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Far North Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Far North East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","North West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","North Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","North East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Saskatoon",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Central West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Central East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Regina",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","South West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","South Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","South East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-05","2023-02-11","SK","Unknown",207,10,,,6.4
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK",,202,3,58,5,6.5
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Far North West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Far North Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Far North East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","North West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","North Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","North East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Saskatoon",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Central West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Central East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Regina",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","South West",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","South Central",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","South East",,,,,
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-12","2023-02-18","SK","Unknown",202,3,,,6.5
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK",,194,4,54,6,6.6
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Far North West",1,,,,1.9
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Far North Central",0,,,,0
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Far North East",2,,,,5
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","North West",5,,,,2.8
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","North Central",13,,,,11.8
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","North East",6,,,,7.7
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Saskatoon",37,,,,6.2
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Central West",4,,,,8.3
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Central East",25,,,,12.8
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Regina",23,,,,6.8
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","South West",3,,,,5.2
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","South Central",9,,,,10.3
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","South East",9,,,,9
+"2023-03-02","https://publications.saskatchewan.ca:443/api/v1/products/120352/formats/138973/download","2023-02-19","2023-02-25","SK","Unknown",57,4,,,5.4
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK",,202,3,58,5,6.5
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Far North West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Far North Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Far North East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","North West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","North Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","North East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Saskatoon",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Central West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Central East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Regina",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","South West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","South Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","South East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-12","2023-02-18","SK","Unknown",202,3,,,6.5
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK",,194,7,54,6,6.6
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Far North West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Far North Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Far North East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","North West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","North Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","North East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Saskatoon",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Central West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Central East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Regina",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","South West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","South Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","South East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-19","2023-02-25","SK","Unknown",194,7,,,6.6
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK",,217,9,66,11,7.1
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Far North West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Far North Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Far North East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","North West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","North Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","North East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Saskatoon",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Central West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Central East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Regina",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","South West",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","South Central",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","South East",,,,,
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-02-26","2023-03-04","SK","Unknown",217,9,,,7.1
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK",,237,5,74,4,8.1
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Far North West",5,,,,9.8
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Far North Central",1,,,,16.7
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Far North East",5,,,,12.2
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","North West",13,,,,9.8
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","North Central",8,,,,6.7
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","North East",4,,,,5.4
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Saskatoon",51,,,,8.9
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Central West",5,,,,8.5
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Central East",30,,,,16.5
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Regina",32,,,,11
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","South West",12,,,,23.1
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","South Central",7,,,,9.1
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","South East",14,,,,14.6
+"2023-03-16","https://publications.saskatchewan.ca:443/api/v1/products/120439/formats/139122/download","2023-03-05","2023-03-11","SK","Unknown",50,5,,,4.3

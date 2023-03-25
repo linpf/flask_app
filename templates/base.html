@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {% block head %}
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  {% block styles %}
+  <!-- Bootstrap CSS -->
+  {{ bootstrap.load_css() }}
+  {% endblock %}
+
+  <title>{{page_title}}</title>
+  {% endblock %}
+</head>
+
+<body class="pt-5">
+
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+
+    <a class="navbar-brand mx-1" href="{{ url_for('home') }}">COVID-19 in Canada</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarCollapse">
+
+    <a href="{{ url_for('pts_view') }}" class="btn btn-outline-primary mx-1" role="button">Provinces/Territories</a>
+
+    <a href="{{ url_for('hrs_view') }}" class="btn btn-outline-primary mx-1" role="button">Health Regions</a>
+
+
+    <div class="px-2">
+      <span class="navbar-text text-success me-auto">
+        {{updated_date}}
+      </span>
+    </div>
+    <div class="px-2">
+      <span class="navbar-text text-warning me-auto">
+        {{page_title}}
+      </span>
+    </div>
+
+</div>
+
+
+</nav>
+
+<div class="page-header pt-2">
+  {% block header %}{% endblock %}
+</div>
+
+<div class="container-fluid">
+
+  <!-- Your page content -->
+  {% block content %}{% endblock %}
+
+</div>
+
+{% block scripts %}
+<!-- Optional JavaScript -->
+{{ bootstrap.load_js() }}
+{% endblock %}
+
+
+</body>
+</html>

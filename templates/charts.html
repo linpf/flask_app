@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+    {% for chart in charts %}
+        <div class="well col-lg-6 px-0" id="chart">
+            <embed type="image/svg+xml" style="vertical-align: bottom" src= {{ chart|safe }} />
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

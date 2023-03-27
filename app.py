@@ -37,34 +37,51 @@ cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 @cache.cached(timeout=3600)
 def home(start_date=None):
 
-    chart3 = can_weekly_chart_from_files(pygal.Bar,
+    chart2 = can_weekly_chart_from_files(pygal.Bar,
                                          [("deaths",
                                            False),
                                           ("hospitalizations", True), ],
                                          "",
                                          start_date)
 
-    chart1 = can_weekly_chart_from_files(pygal.Bar,
+    chart4 = can_weekly_chart_from_files(pygal.Bar,
                                          [
                                              ("hospitalizations", True),
                                              ("cases", False)],
                                          "", start_date)
 
-    chart2 = can_weekly_chart_from_files(pygal.StackedBar,
+    chart1 = can_weekly_chart_from_files(pygal.StackedBar,
                                          [("deaths", False), ],
                                          "", start_date)
 
-    chart4 = can_weekly_chart_from_files(pygal.Bar,
-                                         [
-                                             ("icu", True), ],
-                                         "", start_date)
+    # chart4 = can_weekly_chart_from_files(pygal.Bar,
+    #                                      [
+    #                                          ("icu", True), ],
+    #                                      "", start_date)
 
-    chart6 = can_pts_summary_chart(
-        pygal.HorizontalStackedBar,
-        reversed([("cases", False), ("deaths", False)]),
-        legend_at_bottom=True)
+    chart5 = can_charts([pygal.Bar,],True,
+                                 ["icu"],
+                                 False,
+                                 start_date,
+                                 legend_at_bottom=True)[0]
 
-    chart5 = can_weekly_chart_from_files(pygal.Bar,
+
+
+    chart3 = can_charts([pygal.Bar,],True,
+                                 ["hospitalizations"],
+                                 False,
+                                 start_date,
+                                 legend_at_bottom=True)[0]
+
+
+    # chart11 = can_pts_summary_chart(
+    #     pygal.HorizontalStackedBar,
+    #     reversed([("cases", False), ("deaths", False)]),
+    #     legend_at_bottom=True)
+
+
+
+    chart6 = can_weekly_chart_from_files(pygal.Bar,
                                          [("cases",
                                            False),
                                           ("tests_completed",
@@ -451,14 +468,7 @@ def pt_view(region, start_date=None):
                                          ("hospitalizations",
                                           True),
                                          ],
-                                        "",
-                                        start_date,
-                                        show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01,
-                                        )
+                                        "")
 
     chart1 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
@@ -467,25 +477,12 @@ def pt_view(region, start_date=None):
                                          ("cases",
                                           False),
                                          ],
-                                        "",
-                                        start_date,
-                                        show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01,
-                                        )
+                                        "",)
 
     chart2 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("deaths", False), ],
-                                        "", start_date,
-                                        show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01,
-                                        )
+                                        "", start_date,)
 
     chart9 = pt_hrs_summary_chart(
         region,
@@ -496,12 +493,7 @@ def pt_view(region, start_date=None):
     chart4 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("icu", True), ],
-                                        "", start_date,
-                                        show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01)
+                                        "", start_date,)
 
     chart6 = pt_hrs_summary_chart(
         region,
@@ -515,12 +507,7 @@ def pt_view(region, start_date=None):
                                          ("vaccine_administration_dose_2", True),
                                          ("vaccine_administration_dose_3", True),
                                          ("vaccine_administration_dose_4", True), ],
-                                        "", start_date,
-                                        show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01)
+                                        "", start_date,)
 
     chart8 = pt_weekly_chart_from_attrs(region,
                                         pygal.Line,
@@ -528,12 +515,7 @@ def pt_view(region, start_date=None):
                                          ("vaccine_coverage_dose_2", True),
                                          ("vaccine_coverage_dose_3", True),
                                          ("vaccine_coverage_dose_4", True), ],
-                                        "", start_date,
-                                        show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01)
+                                        "", start_date,)
 
     chart5 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
@@ -542,23 +524,13 @@ def pt_view(region, start_date=None):
                                          ("tests_completed",
                                           False)],
                                         "",
-                                        start_date,
-                                        show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01,
-                                        )
+                                        start_date,)
 
     chart10 = pt_weekly_chart_from_attrs(region,
                                          pygal.Bar,
                                          [("hospitalizations", True)],
-                                         "", start_date,
-                                         show_x_guides=True,
-                                         show_minor_x_labels=False,
-                                         show_x_labels=True,
-                                         legend_at_bottom=True,
-                                         x_label_rotation=0.01)
+                                         "", start_date,)
+
 
     charts = [
         chart1,
@@ -584,39 +556,45 @@ def pt_view(region, start_date=None):
 @cache.cached(timeout=3600)
 def hr_view(region, sub_region_1, start_date=None):
 
+
+
     chart1 = hr_charts(region, sub_region_1, [pygal.Bar],
+                       False,
+                       ["deaths"],
+                       sample_by_week=True,
+                       start_date=start_date,
+                       show_last_item=False)
+
+    chart2 = hr_charts(region, sub_region_1, [pygal.Bar],
                        False,
                        ["deaths", "cases"],
                        sample_by_week=True,
                        start_date=start_date,
                        show_last_item=False)
 
-    chart6 = hr_charts(region, sub_region_1, [pygal.Bar],
+    chart3 = hr_charts(region, sub_region_1, [pygal.Bar],
                        False,
                        ["deaths"],
                        sample_by_week=False,
                        start_date=start_date,
                        show_last_item=False)
 
-    chart3 = hr_charts(region, sub_region_1, [pygal.Bar],
+
+    chart4 = hr_charts(region, sub_region_1, [pygal.Bar],
                        False,
                        ["deaths", "cases"],
                        sample_by_week=False,
                        start_date=start_date,
-                       show_last_item=True)
-    chart4 = hr_charts(region, sub_region_1, [pygal.Line],
+                       show_last_item=True)    
+
+    chart6 = hr_charts(region, sub_region_1, [pygal.Line],
                        True,
                        ["deaths", "cases"],
                        sample_by_week=False,
                        start_date=start_date,
                        show_last_item=True)
 
-    chart2 = hr_charts(region, sub_region_1, [pygal.Bar],
-                       False,
-                       ["deaths"],
-                       sample_by_week=True,
-                       start_date=start_date,
-                       show_last_item=False)
+
 
     chart5 = hr_charts(region, sub_region_1, [pygal.Line],
                        True,
@@ -625,7 +603,9 @@ def hr_view(region, sub_region_1, start_date=None):
                        start_date=start_date,
                        show_last_item=False)
 
-    charts = chart1 + chart2 + chart3 + chart4 + chart5 + chart6
+
+
+    charts = chart1 + chart2 + chart3 + [chart4[0]] + chart5 + chart6 + [chart4[1]]
 
     return render_template(
         'charts.html',
@@ -751,7 +731,11 @@ def pt_weekly_chart_from_attrs(
 
     sorted_report_weeks = sorted(report_weeks)
 
-    chart = pygal_chart(height=280, **kwargs)
+    chart = pygal_chart(height=280, show_x_guides=True,
+                                        show_minor_x_labels=False,
+                                        show_x_labels=True,
+                                        legend_at_bottom=True,
+                                        x_label_rotation=0.01, **kwargs)
 
     for group in groups:
         timeseries_data = []
@@ -1289,10 +1273,13 @@ def pts_charts(
 
                 chart.add({"title": group, }, timeseries_data)
 
+
+        charts.append(chart.render_data_uri())        
+
         if show_last_item:
             charts.append(extra_chart.render_data_uri())
 
-        charts.append(chart.render_data_uri())
+
 
     return charts
 

@@ -14,7 +14,6 @@ can_folder_path = "data/CovidTimelineCanada/data/can/"
 pt_folder_path = "data/CovidTimelineCanada/data/pt/"
 hr_folder_path = "data/CovidTimelineCanada/data/hr/"
 
-
 def read_hr_id2name_maping_table():
 
     with open("data/CovidTimelineCanada/geo/hr.csv", 'r') as file:
@@ -80,7 +79,6 @@ def home(start_date=None):
     #     legend_at_bottom=True)
 
 
-
     chart6 = can_weekly_chart_from_files(pygal.Bar,
                                          [("cases",
                                            False),
@@ -135,41 +133,41 @@ def home(start_date=None):
 @cache.cached(timeout=3600)
 def hrs_view():
 
-    chart1 = hrs_chart(
+    chart2 = hrs_chart(
         "cases", sample_by_week=True,
         show_legend=False)
 
-    chart2 = hrs_chart(
+    chart1 = hrs_chart(
         "deaths",
         sample_by_week=True,
         show_legend=False)
 
-    chart3 = hr_chart(
+    chart4 = hr_chart(
         pygal.HorizontalStackedBar,
         "cases",
         show_legend=False)
 
-    chart4 = hr_chart(
+    chart3 = hr_chart(
         pygal.HorizontalStackedBar,
         "deaths",
         show_legend=False)
-
-    chart5 = hr_chart(
-        pygal.HorizontalStackedBar,
-        "cases",
-        legend_at_bottom=True, margin_bottom=0, show_x_labels=False)
 
     chart6 = hr_chart(
         pygal.HorizontalStackedBar,
+        "cases",
+        legend_at_bottom=True, margin_bottom=0, show_x_labels=False)
+
+    chart5 = hr_chart(
+        pygal.HorizontalStackedBar,
         "deaths",
         legend_at_bottom=True, margin_bottom=0, show_x_labels=False)
 
-    chart7 = hr_chart(
+    chart8 = hr_chart(
         pygal.Treemap,
         "cases",
         show_legend=False)
 
-    chart8 = hr_chart(
+    chart7 = hr_chart(
         pygal.Treemap,
         "deaths",
         show_legend=False)
@@ -440,14 +438,29 @@ def pts_view(start_date=None):
             cumulated = True
 
         charts.extend(pts_charts([pygal.Line],
-                                 cumulated,
-                                 attr,
-                                 sample_by_week,
-                                 start_date,
-                                 show_last_item=True,
-                                 show_legend=True,
-                                 dots_size=1,
-                                 legend_at_bottom=True))
+                                  cumulated,
+                                  attr,
+                                  sample_by_week,
+                                  start_date,
+                                  show_last_item=True,
+                                  show_legend=True,
+                                  dots_size=1,
+                                  legend_at_bottom=True))
+
+        charts.extend(pts_charts([pygal.Treemap],
+                              cumulated,
+                              attr,
+                              sample_by_week,
+                              start_date,
+                              show_last_item=False,
+                              show_legend=True,
+                              dots_size=1,
+                              legend_at_bottom=True))
+
+        charts.append(can_pts_summary_chart(
+        pygal.HorizontalStackedBar,
+        [(attr, False),],
+        legend_at_bottom=True))
 
     return render_template(
         'charts.html',
@@ -556,8 +569,6 @@ def pt_view(region, start_date=None):
 @cache.cached(timeout=3600)
 def hr_view(region, sub_region_1, start_date=None):
 
-
-
     chart1 = hr_charts(region, sub_region_1, [pygal.Bar],
                        False,
                        ["deaths"],
@@ -579,7 +590,6 @@ def hr_view(region, sub_region_1, start_date=None):
                        start_date=start_date,
                        show_last_item=False)
 
-
     chart4 = hr_charts(region, sub_region_1, [pygal.Bar],
                        False,
                        ["deaths", "cases"],
@@ -594,16 +604,12 @@ def hr_view(region, sub_region_1, start_date=None):
                        start_date=start_date,
                        show_last_item=True)
 
-
-
     chart5 = hr_charts(region, sub_region_1, [pygal.Line],
                        True,
                        ["deaths"],
                        sample_by_week=False,
                        start_date=start_date,
                        show_last_item=False)
-
-
 
     charts = chart1 + chart2 + chart3 + [chart4[0]] + chart5 + chart6 + [chart4[1]]
 
@@ -1279,8 +1285,6 @@ def pts_charts(
         if show_last_item:
             charts.append(extra_chart.render_data_uri())
 
-
-
     return charts
 
 
@@ -1520,10 +1524,10 @@ def can_pts_summary_chart(pygal_chart_class, attrs, **kwargs):
                 pts.add(row_data["region"])
                 if value_daily:
                     pt_value[(row_data["name"], row_data["region"])
-                             ] = int(row_data["value_daily"])
+                             ] = float(row_data["value_daily"])
                 else:
                     pt_value[(row_data["name"], row_data["region"])
-                             ] = int(row_data["value"])
+                             ] = float(row_data["value"])
                 pt_date[(row_data["name"], row_data["region"])
                         ] = row_data["date"]
             names.append(row_data["name"])

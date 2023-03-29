@@ -460,7 +460,7 @@ def pts_view(start_date=None):
         charts.append(can_pts_summary_chart(
         pygal.HorizontalStackedBar,
         [(attr, False),],
-        legend_at_bottom=True))
+        legend_at_bottom=True, show_x_labels=True))
 
     return render_template(
         'charts.html',
@@ -1138,7 +1138,7 @@ def pts_charts(
 
             if show_last_item:
                 extra_chart = pygal.Bar(
-                    height=280, show_legend=True, legend_at_bottom=True,)
+                    height=280, show_legend=False, legend_at_bottom=True,)
                 extra_chart.x_labels = [attr]
 
             if sample_by_week:
@@ -1544,7 +1544,7 @@ def can_pts_summary_chart(pygal_chart_class, attrs, **kwargs):
         chart.add({"title": pt,
                    'xlink': {"href": request.host_url + "pt_view/" + pt,
                              "target": "_top"}}, data)
-    chart.x_labels = names
+    # chart.x_labels = names
 
     return chart.render_data_uri()
 

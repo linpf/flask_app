@@ -226,7 +226,8 @@ def pt_attr_view(region, attr, start_date=None):
         cumulated = True
 
     charts_set = pt_charts(region,
-                           [pygal.Bar,
+                           [pygal.Bar, pygal.Pie, # pygal.Radar, 
+                           pygal.Line,
                             pygal.Treemap],
                            cumulated,
                            attr,

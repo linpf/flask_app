@@ -36,22 +36,30 @@ cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 @cache.cached(timeout=3600)
 def home(start_date=None):
 
-    chart2 = can_weekly_chart_from_files(pygal.Bar,
+    chart1 = can_weekly_attrs_chart(pygal.StackedBar,
+                                         [("deaths", False), ],
+                                         "", start_date)
+
+    chart2 = can_weekly_attrs_chart(pygal.Bar,
                                          [("deaths",
                                            False),
                                           ("hospitalizations", True), ],
                                          "",
                                          start_date)
 
-    chart4 = can_weekly_chart_from_files(pygal.Bar,
+    chart3 = can_charts([pygal.Bar,],True,
+                                 ["hospitalizations"],
+                                 False,
+                                 start_date,
+                                 legend_at_bottom=True)[0]
+
+    chart4 = can_weekly_attrs_chart(pygal.Bar,
                                          [
                                              ("hospitalizations", True),
                                              ("cases", False)],
                                          "", start_date)
 
-    chart1 = can_weekly_chart_from_files(pygal.StackedBar,
-                                         [("deaths", False), ],
-                                         "", start_date)
+
 
     # chart4 = can_weekly_chart_from_files(pygal.Bar,
     #                                      [
@@ -66,11 +74,7 @@ def home(start_date=None):
 
 
 
-    chart3 = can_charts([pygal.Bar,],True,
-                                 ["hospitalizations"],
-                                 False,
-                                 start_date,
-                                 legend_at_bottom=True)[0]
+
 
 
     # chart11 = can_pts_summary_chart(
@@ -78,22 +82,21 @@ def home(start_date=None):
     #     reversed([("cases", False), ("deaths", False)]),
     #     legend_at_bottom=True)
 
-
-    chart6 = can_weekly_chart_from_files(pygal.Bar,
+    chart6 = can_weekly_attrs_chart(pygal.Bar,
                                          [("cases",
                                            False),
                                           ("tests_completed",
                                            False)],
                                          "", start_date, dots_size=1)
 
-    chart7 = can_weekly_chart_from_files(pygal.Line,
+    chart7 = can_weekly_attrs_chart(pygal.Line,
                                          [("vaccine_administration_dose_1", True),
                                              ("vaccine_administration_dose_2", True),
                                              ("vaccine_administration_dose_3", True),
                                              ("vaccine_administration_dose_4", True), ],
                                          "", start_date,)
 
-    chart8 = can_weekly_chart_from_files(pygal.Line,
+    chart8 = can_weekly_attrs_chart(pygal.Line,
                                          [("vaccine_coverage_dose_1", True),
                                           ("vaccine_coverage_dose_2", True),
                                           ("vaccine_coverage_dose_3", True),
@@ -503,7 +506,7 @@ def pt_view(region, start_date=None):
         reversed([("cases", True), ("deaths", True)]),
         legend_at_bottom=True)
 
-    chart3 = pt_weekly_chart_from_attrs(region,
+    chart5 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("icu", True), ],
                                         "", start_date,)
@@ -539,7 +542,7 @@ def pt_view(region, start_date=None):
                                         "",
                                         start_date,)
 
-    chart5 = pt_weekly_chart_from_attrs(region,
+    chart3 = pt_weekly_chart_from_attrs(region,
                                          pygal.Bar,
                                          [("hospitalizations", True)],
                                          "", start_date,)
@@ -622,7 +625,7 @@ def hr_view(region, sub_region_1, start_date=None):
         updated_date=read_update_time())
 
 
-def can_weekly_chart_from_files(
+def can_weekly_attrs_chart(
         pygal_chart,
         files,
         title="",
@@ -1376,7 +1379,9 @@ def can_charts(
                         else:
                             timeseries_data.append(None)
 
-                    chart.add({"title": group, }, timeseries_data)
+                    #chart.add({"title": group, }, timeseries_data)
+                    chart.add({"title": group, 'xlink': {"href": request.host_url +
+                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
                 chart.x_labels = sorted_reports
                 chart.x_labels_major = [

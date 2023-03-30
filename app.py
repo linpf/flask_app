@@ -474,7 +474,7 @@ def pts_view(start_date=None):
 @cache.cached(timeout=3600)
 def pt_view(region, start_date=None):
 
-    chart3 = pt_weekly_chart_from_attrs(region,
+    chart2 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("deaths",
                                           False),
@@ -483,7 +483,7 @@ def pt_view(region, start_date=None):
                                          ],
                                         "")
 
-    chart1 = pt_weekly_chart_from_attrs(region,
+    chart4 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("hospitalizations",
                                           True),
@@ -492,23 +492,23 @@ def pt_view(region, start_date=None):
                                          ],
                                         "",)
 
-    chart2 = pt_weekly_chart_from_attrs(region,
+    chart1 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("deaths", False), ],
                                         "", start_date,)
 
     chart9 = pt_hrs_summary_chart(
         region,
-        pygal.HorizontalBar,
+        pygal.Bar,
         reversed([("cases", True), ("deaths", True)]),
         legend_at_bottom=True)
 
-    chart4 = pt_weekly_chart_from_attrs(region,
+    chart3 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("icu", True), ],
                                         "", start_date,)
 
-    chart6 = pt_hrs_summary_chart(
+    chart10 = pt_hrs_summary_chart(
         region,
         pygal.HorizontalStackedBar,
         reversed([("cases", False), ("deaths", False)]),
@@ -530,7 +530,7 @@ def pt_view(region, start_date=None):
                                          ("vaccine_coverage_dose_4", True), ],
                                         "", start_date,)
 
-    chart5 = pt_weekly_chart_from_attrs(region,
+    chart6 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("cases",
                                           False),
@@ -539,7 +539,7 @@ def pt_view(region, start_date=None):
                                         "",
                                         start_date,)
 
-    chart10 = pt_weekly_chart_from_attrs(region,
+    chart5 = pt_weekly_chart_from_attrs(region,
                                          pygal.Bar,
                                          [("hospitalizations", True)],
                                          "", start_date,)

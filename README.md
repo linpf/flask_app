@@ -1,8 +1,8 @@
 # flask_app
 
-
 ***
 
+## Interactive data visualizations of COVID-19
 
 ![Screenshot_from_2023-03-13_10-17-29](https://gitlab.com/Pi.Lin/flask_app/-/wikis/uploads/f306b6b5dc7643b6d6eb384971690f09/Screenshot_from_2023-03-13_10-17-29.png)
 

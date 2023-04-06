@@ -43,8 +43,8 @@ read_region_2_name_canonical_maping_table()
 
 
 @app.route('/')
-@app.route('/home')
-@app.route('/home/<start_date>')
+@app.route('/can')
+@app.route('/can/<start_date>')
 @cache.cached(timeout=3600)
 def home(start_date=None):
 
@@ -751,7 +751,7 @@ def can_weekly_attrs_chart(
                         '%G %V %u'))[
                     :10]
                 timeseries_data.append({"value": data_x_y[(week, group)], "xlink": {
-                                       "href": request.host_url + "home/" + start_date_of_week, "target": "_top"}})
+                                       "href": request.host_url + "can/" + start_date_of_week, "target": "_top"}})
             else:
                 timeseries_data.append(None)
 

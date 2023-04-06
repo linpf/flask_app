@@ -9,13 +9,14 @@ from flask_caching import Cache
 
 hr_short_name = {}
 hr_region = {}
+pt_name_canonical = {}
 
 can_folder_path = "data/CovidTimelineCanada/data/can/"
 pt_folder_path = "data/CovidTimelineCanada/data/pt/"
 hr_folder_path = "data/CovidTimelineCanada/data/hr/"
 
 
-def read_hr_id2name_maping_table():
+def read_hrid_2_name_maping_table():
 
     with open("data/CovidTimelineCanada/geo/hr.csv", 'r') as file:
         csv_file = csv.DictReader(file)
@@ -25,10 +26,20 @@ def read_hr_id2name_maping_table():
             hr_region[row_data["hruid"]] = row_data["region"]
 
 
-read_hr_id2name_maping_table()
+def read_region_2_name_canonical_maping_table():
+
+    with open("data/CovidTimelineCanada/geo/pt.csv", 'r') as file:
+        csv_file = csv.DictReader(file)
+        for row in csv_file:
+            row_data = dict(row)
+            pt_name_canonical[row_data["region"]] = row_data["name_canonical"]
+
+
 app = Flask(__name__)
 Bootstrap5(app)
 cache = Cache(app, config={'CACHE_TYPE': 'simple'})
+read_hrid_2_name_maping_table()
+read_region_2_name_canonical_maping_table()
 
 
 @app.route('/')
@@ -625,7 +636,7 @@ def pt_view(region, start_date=None):
     return render_template(
         'charts.html',
         charts=charts,
-        page_title=region,
+        page_title=pt_name_canonical[region] + " (" + region + ")",
         updated_date=read_update_time())
 
 
@@ -757,8 +768,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url +
-                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url + \
+                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]

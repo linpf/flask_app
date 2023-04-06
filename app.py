@@ -14,6 +14,7 @@ can_folder_path = "data/CovidTimelineCanada/data/can/"
 pt_folder_path = "data/CovidTimelineCanada/data/pt/"
 hr_folder_path = "data/CovidTimelineCanada/data/hr/"
 
+
 def read_hr_id2name_maping_table():
 
     with open("data/CovidTimelineCanada/geo/hr.csv", 'r') as file:
@@ -37,71 +38,54 @@ cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 def home(start_date=None):
 
     chart1 = can_weekly_attrs_chart(pygal.StackedBar,
-                                         [("deaths", False), ],
-                                         "", start_date)
+                                    [("deaths", False), ],
+                                    "", start_date)
 
     chart2 = can_weekly_attrs_chart(pygal.Bar,
-                                         [("deaths",
-                                           False),
-                                          ("hospitalizations", True), ],
-                                         "",
-                                         start_date)
+                                    [("deaths",
+                                      False),
+                                     ("hospitalizations", True), ],
+                                    "",
+                                    start_date)
 
-    chart3 = can_charts([pygal.Bar,],True,
-                                 ["hospitalizations"],
-                                 False,
-                                 start_date,
-                                 legend_at_bottom=True)[0]
+    chart3 = can_charts([pygal.Bar, ], True,
+                        ["hospitalizations"],
+                        False,
+                        start_date,
+                        legend_at_bottom=True)[0]
 
     chart4 = can_weekly_attrs_chart(pygal.Bar,
-                                         [
-                                             ("hospitalizations", True),
-                                             ("cases", False)],
-                                         "", start_date)
+                                    [
+                                        ("hospitalizations", True),
+                                        ("cases", False)],
+                                    "", start_date)
 
-
-
-    # chart4 = can_weekly_chart_from_files(pygal.Bar,
-    #                                      [
-    #                                          ("icu", True), ],
-    #                                      "", start_date)
-
-    chart5 = can_charts([pygal.Bar,],True,
-                                 ["icu"],
-                                 False,
-                                 start_date,
-                                 legend_at_bottom=True)[0]
-
-
-
-
-
-
-    # chart11 = can_pts_summary_chart(
-    #     pygal.HorizontalStackedBar,
-    #     reversed([("cases", False), ("deaths", False)]),
-    #     legend_at_bottom=True)
+    chart5 = can_charts([pygal.Bar, ], True,
+                        ["icu"],
+                        False,
+                        start_date,
+                        legend_at_bottom=True)[0]
 
     chart6 = can_weekly_attrs_chart(pygal.Bar,
-                                         [("cases",
-                                           False),
-                                          ("tests_completed",
-                                           False)],
-                                         "", start_date, dots_size=1)
+                                    [("cases",
+                                      False),
+                                     ("tests_completed",
+                                      False)],
+                                    "", start_date, dots_size=1)
 
     chart7 = can_weekly_attrs_chart(pygal.Line,
-                                         [("vaccine_administration_dose_1", True),
-                                             ("vaccine_administration_dose_2", True),
-                                             ("vaccine_administration_dose_3", True),
-                                             ("vaccine_administration_dose_4", True), ],
-                                         "", start_date,)
+                                    [("vaccine_administration_dose_1", True),
+                                     ("vaccine_administration_dose_2", True),
+                                     ("vaccine_administration_dose_3", True),
+                                     ("vaccine_administration_dose_4", True), ],
+                                    "", start_date,)
 
     chart8 = can_weekly_attrs_chart(pygal.Line,
-                                         [("vaccine_coverage_dose_1", True),
-                                          ("vaccine_coverage_dose_2", True),
-                                          ("vaccine_coverage_dose_3", True),
-                                          ("vaccine_coverage_dose_4", True), ],
-                                         "", start_date,)
+                                    [("vaccine_coverage_dose_1", True),
+                                     ("vaccine_coverage_dose_2", True),
+                                     ("vaccine_coverage_dose_3", True),
+                                     ("vaccine_coverage_dose_4", True), ],
+                                    "", start_date,)
 
     (chart9,) = can_charts([pygal.Line, ], True, [
         "deaths", "cases"], False, start_date, show_legend=True, legend_at_bottom=True)
@@ -136,46 +120,46 @@ def home(start_date=None):
 @cache.cached(timeout=3600)
 def hrs_view():
 
-    chart2 = hrs_chart(
-        "cases", sample_by_week=True,
-        show_legend=False)
-
     chart1 = hrs_chart(
         "deaths",
         sample_by_week=True,
         show_legend=False)
 
-    chart4 = hr_chart(
-        pygal.HorizontalStackedBar,
-        "cases",
+    chart2 = hrs_chart(
+        "cases", sample_by_week=True,
         show_legend=False)
 
     chart3 = hr_chart(
-        pygal.HorizontalStackedBar,
+        pygal.Treemap,
         "deaths",
         show_legend=False)
 
-    chart6 = hr_chart(
-        pygal.HorizontalStackedBar,
+    chart4 = hr_chart(
+        pygal.Treemap,
         "cases",
-        legend_at_bottom=True, margin_bottom=0, show_x_labels=False)
+        show_legend=False)
 
     chart5 = hr_chart(
         pygal.HorizontalStackedBar,
         "deaths",
         legend_at_bottom=True, margin_bottom=0, show_x_labels=False)
 
-    chart8 = hr_chart(
-        pygal.Treemap,
+    chart6 = hr_chart(
+        pygal.HorizontalStackedBar,
         "cases",
-        show_legend=False)
+        legend_at_bottom=True, margin_bottom=0, show_x_labels=False)
 
     chart7 = hr_chart(
-        pygal.Treemap,
+        pygal.HorizontalStackedBar,
         "deaths",
         show_legend=False)
 
-    charts = [chart1, chart2, chart7, chart8, chart5, chart6, chart3, chart4]
+    chart8 = hr_chart(
+        pygal.HorizontalStackedBar,
+        "cases",
+        show_legend=False)
+
+    charts = [chart1, chart2, chart3, chart4, chart5, chart6, chart7, chart8]
 
     return render_template(
         'charts.html',
@@ -226,17 +210,17 @@ def pt_attr_view(region, attr, start_date=None):
         cumulated = True
 
     charts_set = pt_charts(region,
-                           [pygal.Bar, pygal.Pie, # pygal.Radar, 
-                           pygal.Line,
+                           [pygal.Bar, pygal.Pie,  # pygal.Radar,
+                            pygal.Line,
                             pygal.Treemap],
                            cumulated,
                            attr,
                            True,
                            start_date) + pt_charts(region,
                                                    [pygal.Bar,
-                                                   pygal.Pie, # pygal.Radar, 
-                                                   pygal.Line,
-                                                   pygal.Treemap],
+                                                    pygal.Pie,  # pygal.Radar,
+                                                    pygal.Line,
+                                                    pygal.Treemap],
                                                    cumulated,
                                                    attr,
                                                    False,
@@ -266,10 +250,10 @@ def pts_attr_view(attr, start_date=None):
     charts_set = pts_charts([pygal.StackedBar,
                              pygal.Treemap,
                              pygal.Pie],
-                             cumulated,
-                             attr,
-                             True,
-                             start_date) + pts_charts([pygal.StackedBar,
+                            cumulated,
+                            attr,
+                            True,
+                            start_date) + pts_charts([pygal.StackedBar,
                                                       pygal.Treemap,
                                                       pygal.Pie],
                                                      cumulated,
@@ -328,6 +312,40 @@ def can_attr_view(attr, start_date=None):
                                                                      False,
                                                                      start_date,
                                                                      show_legend=False)
+    elif attr in ["vaccine_coverage_dose_1",
+                  "vaccine_coverage_dose_2",
+                  "vaccine_coverage_dose_3",
+                  "vaccine_coverage_dose_4", ]:
+
+        charts_set1 = can_charts([pygal.Bar,
+                                  pygal.Treemap],
+                                 cumulated,
+                                 [attr],
+                                 True,
+                                 start_date,
+                                 legend_at_bottom=True) + can_charts([pygal.Bar,
+                                                                      pygal.Treemap],
+                                                                     cumulated,
+                                                                     [attr],
+                                                                     False,
+                                                                     start_date,
+                                                                     show_legend=False)
+
+        charts_set2 = pts_charts([pygal.Bar,
+                                  pygal.Treemap,
+                                  ],
+                                 cumulated,
+                                 attr,
+                                 True,
+                                 start_date,
+                                 legend_at_bottom=True) + pts_charts([pygal.Bar,
+                                                                      pygal.Treemap,
+                                                                      ],
+                                                                     cumulated,
+                                                                     attr,
+                                                                     False,
+                                                                     start_date,
+                                                                     show_legend=False)
 
     else:
 
@@ -372,6 +390,7 @@ def can_attr_view(attr, start_date=None):
         dots_size=1,
         show_legend=True,
         legend_at_bottom=True)
+
     chart2 = pt_cumulated_dateline_chart(
         pt_file,
         start_date=None,
@@ -444,29 +463,29 @@ def pts_view(start_date=None):
             cumulated = True
 
         charts.extend(pts_charts([pygal.Line],
-                                  cumulated,
-                                  attr,
-                                  sample_by_week,
-                                  start_date,
-                                  show_last_item=True,
-                                  show_legend=True,
-                                  dots_size=1,
-                                  legend_at_bottom=True))
+                                 cumulated,
+                                 attr,
+                                 sample_by_week,
+                                 start_date,
+                                 show_last_item=True,
+                                 show_legend=True,
+                                 dots_size=1,
+                                 legend_at_bottom=True))
 
         charts.extend(pts_charts([pygal.Treemap],
-                              cumulated,
-                              attr,
-                              sample_by_week,
-                              start_date,
-                              show_last_item=False,
-                              show_legend=True,
-                              dots_size=1,
-                              legend_at_bottom=True))
+                                 cumulated,
+                                 attr,
+                                 sample_by_week,
+                                 start_date,
+                                 show_last_item=False,
+                                 show_legend=True,
+                                 dots_size=1,
+                                 legend_at_bottom=True))
 
         charts.append(can_pts_summary_chart(
-        pygal.HorizontalStackedBar,
-        [(attr, False),],
-        legend_at_bottom=True, show_x_labels=True))
+            pygal.HorizontalStackedBar,
+            [(attr, False), ],
+            legend_at_bottom=True, show_x_labels=True))
 
     return render_template(
         'charts.html',
@@ -480,6 +499,11 @@ def pts_view(start_date=None):
 @cache.cached(timeout=3600)
 def pt_view(region, start_date=None):
 
+    chart1 = pt_weekly_chart_from_attrs(region,
+                                        pygal.Bar,
+                                        [("deaths", False), ],
+                                        "", start_date,)
+
     chart2 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("deaths",
@@ -488,6 +512,11 @@ def pt_view(region, start_date=None):
                                           True),
                                          ],
                                         "")
+
+    chart3 = pt_weekly_chart_from_attrs(region,
+                                        pygal.Bar,
+                                        [("hospitalizations", True)],
+                                        "", start_date,)
 
     chart4 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
@@ -498,27 +527,19 @@ def pt_view(region, start_date=None):
                                          ],
                                         "",)
 
-    chart1 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("deaths", False), ],
-                                        "", start_date,)
-
-    chart9 = pt_hrs_summary_chart(
-        region,
-        pygal.Bar,
-        reversed([("cases", True), ("deaths", True)]),
-        legend_at_bottom=True)
-
     chart5 = pt_weekly_chart_from_attrs(region,
                                         pygal.Bar,
                                         [("icu", True), ],
                                         "", start_date,)
 
-    chart10 = pt_hrs_summary_chart(
-        region,
-        pygal.HorizontalStackedBar,
-        reversed([("cases", False), ("deaths", False)]),
-        legend_at_bottom=True)
+    chart6 = pt_weekly_chart_from_attrs(region,
+                                        pygal.Bar,
+                                        [("cases",
+                                          False),
+                                         ("tests_completed",
+                                          False)],
+                                        "",
+                                        start_date,)
 
     chart7 = pt_weekly_chart_from_attrs(region,
                                         pygal.Line,
@@ -536,20 +557,17 @@ def pt_view(region, start_date=None):
                                          ("vaccine_coverage_dose_4", True), ],
                                         "", start_date,)
 
-    chart6 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("cases",
-                                          False),
-                                         ("tests_completed",
-                                          False)],
-                                        "",
-                                        start_date,)
+    chart9 = pt_hrs_summary_chart(
+        region,
+        pygal.Bar,
+        reversed([("cases", True), ("deaths", True)]),
+        legend_at_bottom=True)
 
-    chart3 = pt_weekly_chart_from_attrs(region,
-                                         pygal.Bar,
-                                         [("hospitalizations", True)],
-                                         "", start_date,)
-
+    chart10 = pt_hrs_summary_chart(
+        region,
+        pygal.HorizontalStackedBar,
+        reversed([("cases", False), ("deaths", False)]),
+        legend_at_bottom=True)
 
     charts = [
         chart1,
@@ -601,7 +619,7 @@ def hr_view(region, sub_region_1, start_date=None):
                        ["deaths", "cases"],
                        sample_by_week=False,
                        start_date=start_date,
-                       show_last_item=True)    
+                       show_last_item=True)
 
     chart6 = hr_charts(region, sub_region_1, [pygal.Line],
                        True,
@@ -617,7 +635,8 @@ def hr_view(region, sub_region_1, start_date=None):
                        start_date=start_date,
                        show_last_item=False)
 
-    charts = chart1 + chart2 + chart3 + [chart4[0]] + chart5 + chart6 + [chart4[1]]
+    charts = chart1 + chart2 + chart3 + \
+        [chart4[0]] + chart5 + chart6 + [chart4[1]]
 
     return render_template(
         'charts.html',
@@ -697,8 +716,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url +
-                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url + \
+                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]
@@ -744,10 +763,10 @@ def pt_weekly_chart_from_attrs(
     sorted_report_weeks = sorted(report_weeks)
 
     chart = pygal_chart(height=280, show_x_guides=True,
-                                        show_minor_x_labels=False,
-                                        show_x_labels=True,
-                                        legend_at_bottom=True,
-                                        x_label_rotation=0.01, **kwargs)
+                        show_minor_x_labels=False,
+                        show_x_labels=True,
+                        legend_at_bottom=True,
+                        x_label_rotation=0.01, **kwargs)
 
     for group in groups:
         timeseries_data = []
@@ -1285,8 +1304,7 @@ def pts_charts(
 
                 chart.add({"title": group, }, timeseries_data)
 
-
-        charts.append(chart.render_data_uri())        
+        charts.append(chart.render_data_uri())
 
         if show_last_item:
             charts.append(extra_chart.render_data_uri())
@@ -1383,8 +1401,15 @@ def can_charts(
                             timeseries_data.append(None)
 
                     #chart.add({"title": group, }, timeseries_data)
-                    chart.add({"title": group, 'xlink': {"href": request.host_url +
-                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+                    chart.add(
+                        {
+                            "title": group,
+                            'xlink': {
+                                "href": request.host_url +
+                                "can_attr_view/" +
+                                group,
+                                "target": "_top"}},
+                        timeseries_data)
 
                 chart.x_labels = sorted_reports
                 chart.x_labels_major = [

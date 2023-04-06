@@ -48,49 +48,60 @@ def home(start_date=None):
                                     "",
                                     start_date)
 
-    chart3 = can_charts([pygal.Bar, ], True,
+    chart5 = can_charts([pygal.Bar, ], True,
                         ["hospitalizations"],
                         False,
                         start_date,
                         legend_at_bottom=True)[0]
 
-    chart4 = can_weekly_attrs_chart(pygal.Bar,
+    chart6 = can_weekly_attrs_chart(pygal.Bar,
                                     [
                                         ("hospitalizations", True),
                                         ("cases", False)],
                                     "", start_date)
 
-    chart5 = can_charts([pygal.Bar, ], True,
+    chart3 = can_charts([pygal.Bar, ], True,
                         ["icu"],
                         False,
                         start_date,
                         legend_at_bottom=True)[0]
 
-    chart6 = can_weekly_attrs_chart(pygal.Bar,
+    chart4 = can_weekly_attrs_chart(pygal.Bar,
+                                    [("icu",
+                                      True),
+                                     ("hospitalizations",
+                                      True)],
+                                    "", start_date, dots_size=1)
+
+    chart7 = can_weekly_attrs_chart(pygal.Bar,
+                                    [("cases", False), ],
+                                    "", start_date)
+
+    chart8 = can_weekly_attrs_chart(pygal.Bar,
                                     [("cases",
                                       False),
                                      ("tests_completed",
                                       False)],
                                     "", start_date, dots_size=1)
 
-    chart7 = can_weekly_attrs_chart(pygal.Line,
+    chart9 = can_weekly_attrs_chart(pygal.Line,
                                     [("vaccine_administration_dose_1", True),
                                      ("vaccine_administration_dose_2", True),
                                      ("vaccine_administration_dose_3", True),
                                      ("vaccine_administration_dose_4", True), ],
                                     "", start_date,)
 
-    chart8 = can_weekly_attrs_chart(pygal.Line,
-                                    [("vaccine_coverage_dose_1", True),
-                                     ("vaccine_coverage_dose_2", True),
-                                     ("vaccine_coverage_dose_3", True),
-                                     ("vaccine_coverage_dose_4", True), ],
-                                    "", start_date,)
+    chart10 = can_weekly_attrs_chart(pygal.Line,
+                                     [("vaccine_coverage_dose_1", True),
+                                      ("vaccine_coverage_dose_2", True),
+                                      ("vaccine_coverage_dose_3", True),
+                                      ("vaccine_coverage_dose_4", True), ],
+                                     "", start_date,)
 
-    (chart9,) = can_charts([pygal.Line, ], True, [
+    (chart11,) = can_charts([pygal.Line, ], True, [
         "deaths", "cases"], False, start_date, show_legend=True, legend_at_bottom=True)
 
-    (chart10,) = can_charts([pygal.Line, ], True, [
+    (chart12,) = can_charts([pygal.Line, ], True, [
         "deaths"], False, start_date, show_legend=True, legend_at_bottom=True)
 
     charts = [
@@ -103,7 +114,10 @@ def home(start_date=None):
         chart7,
         chart8,
         chart9,
-        chart10]
+        chart10,
+        chart11,
+        chart12,
+    ]
 
     page_title = "Canada from " + start_date if start_date else "Canada "
 
@@ -472,15 +486,26 @@ def pts_view(start_date=None):
                                  dots_size=1,
                                  legend_at_bottom=True))
 
-        charts.extend(pts_charts([pygal.Treemap],
-                                 cumulated,
-                                 attr,
-                                 sample_by_week,
-                                 start_date,
-                                 show_last_item=False,
-                                 show_legend=True,
-                                 dots_size=1,
-                                 legend_at_bottom=True))
+        if attr.startswith("vaccine_coverage_dose"):
+            charts.extend(pts_charts([pygal.Treemap],
+                                     False,
+                                     "vaccine_administration_dose_" + attr[-1:],
+                                     sample_by_week,
+                                     start_date,
+                                     show_last_item=False,
+                                     show_legend=True,
+                                     dots_size=1,
+                                     legend_at_bottom=True))
+        else:
+            charts.extend(pts_charts([pygal.Treemap],
+                                     cumulated,
+                                     attr,
+                                     sample_by_week,
+                                     start_date,
+                                     show_last_item=False,
+                                     show_legend=True,
+                                     dots_size=1,
+                                     legend_at_bottom=True))
 
         charts.append(can_pts_summary_chart(
             pygal.HorizontalStackedBar,
@@ -1303,6 +1328,8 @@ def pts_charts(
                     report_time)} for report_time in sorted_reports if (report_time, group) in data_x_y]
 
                 chart.add({"title": group, }, timeseries_data)
+
+            chart.title = attr
 
         charts.append(chart.render_data_uri())
 

@@ -524,71 +524,85 @@ def pts_view(start_date=None):
 @cache.cached(timeout=3600)
 def pt_view(region, start_date=None):
 
-    chart1 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("deaths", False), ],
-                                        "", start_date,)
+    chart1 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("deaths", False), ],
+                                   "", start_date,)
 
-    chart2 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("deaths",
-                                          False),
-                                         ("hospitalizations",
-                                          True),
-                                         ],
-                                        "")
+    chart2 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("deaths",
+                                     False),
+                                    ("hospitalizations",
+                                     True),
+                                    ],
+                                   "")
 
-    chart3 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("hospitalizations", True)],
-                                        "", start_date,)
+    chart3 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("icu", True), ],
+                                   "", start_date,)
 
-    chart4 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("hospitalizations",
-                                          True),
-                                         ("cases",
-                                          False),
-                                         ],
-                                        "",)
+    chart4 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("icu",
+                                     True),
+                                    ("hospitalizations",
+                                     True)],
+                                   "",
+                                   start_date,)
 
-    chart5 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("icu", True), ],
-                                        "", start_date,)
+    chart5 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("hospitalizations", True)],
+                                   "", start_date,)
 
-    chart6 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Bar,
-                                        [("cases",
-                                          False),
-                                         ("tests_completed",
-                                          False)],
-                                        "",
-                                        start_date,)
+    chart6 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("hospitalizations",
+                                     True),
+                                    ("cases",
+                                     False),
+                                    ],
+                                   "",)
 
-    chart7 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Line,
-                                        [("vaccine_administration_dose_1", True),
-                                         ("vaccine_administration_dose_2", True),
-                                         ("vaccine_administration_dose_3", True),
-                                         ("vaccine_administration_dose_4", True), ],
-                                        "", start_date,)
+    chart7 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("cases", False)],
+                                   "", start_date,)
 
-    chart8 = pt_weekly_chart_from_attrs(region,
-                                        pygal.Line,
-                                        [("vaccine_coverage_dose_1", True),
-                                         ("vaccine_coverage_dose_2", True),
-                                         ("vaccine_coverage_dose_3", True),
-                                         ("vaccine_coverage_dose_4", True), ],
-                                        "", start_date,)
+    chart8 = pt_weekly_attrs_chart(region,
+                                   pygal.Bar,
+                                   [("cases",
+                                     False),
+                                    ("tests_completed",
+                                     False)],
+                                   "",
+                                   start_date,)
 
-    chart9 = pt_hrs_summary_chart(
+    chart9 = pt_weekly_attrs_chart(region,
+                                   pygal.Line,
+                                   [("vaccine_administration_dose_1", True),
+                                    ("vaccine_administration_dose_2", True),
+                                    ("vaccine_administration_dose_3", True),
+                                    ("vaccine_administration_dose_4", True), ],
+                                   "", start_date,)
+
+    chart10 = pt_weekly_attrs_chart(region,
+                                    pygal.Line,
+                                    [("vaccine_coverage_dose_1", True),
+                                     ("vaccine_coverage_dose_2", True),
+                                     ("vaccine_coverage_dose_3", True),
+                                     ("vaccine_coverage_dose_4", True), ],
+                                    "", start_date,)
+
+    chart11 = pt_hrs_summary_chart(
         region,
         pygal.Bar,
         reversed([("cases", True), ("deaths", True)]),
         legend_at_bottom=True)
 
-    chart10 = pt_hrs_summary_chart(
+    chart12 = pt_hrs_summary_chart(
         region,
         pygal.HorizontalStackedBar,
         reversed([("cases", False), ("deaths", False)]),
@@ -604,7 +618,9 @@ def pt_view(region, start_date=None):
         chart7,
         chart8,
         chart9,
-        chart10]
+        chart10,
+        chart11,
+        chart12]
 
     return render_template(
         'charts.html',
@@ -741,8 +757,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url + \
-                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url +
+                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]
@@ -750,7 +766,7 @@ def can_weekly_attrs_chart(
     return chart.render_data_uri()
 
 
-def pt_weekly_chart_from_attrs(
+def pt_weekly_attrs_chart(
         region,
         pygal_chart,
         attrs,

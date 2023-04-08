@@ -315,7 +315,7 @@ def can_attr_view(attr, start_date=None):
                                  attr,
                                  True,
                                  start_date,
-                                 attr,
+                                 "",
                                  legend_at_bottom=True) + pts_charts([pygal.StackedBar,
                                                                       pygal.Treemap,
                                                                       ],
@@ -323,7 +323,7 @@ def can_attr_view(attr, start_date=None):
                                                                      attr,
                                                                      False,
                                                                      start_date,
-                                                                     attr,
+                                                                     "",
                                                                      show_legend=False)
 
         charts_set1 = can_charts([pygal.StackedBar,
@@ -365,7 +365,7 @@ def can_attr_view(attr, start_date=None):
                                  attr,
                                  True,
                                  start_date,
-                                 attr,
+                                 "",
                                  legend_at_bottom=True) + pts_charts([pygal.Bar,
                                                                       pygal.Treemap,
                                                                       ],
@@ -373,7 +373,7 @@ def can_attr_view(attr, start_date=None):
                                                                      attr,
                                                                      False,
                                                                      start_date,
-                                                                     attr,
+                                                                     "",
                                                                      show_legend=False)
 
     else:
@@ -400,7 +400,7 @@ def can_attr_view(attr, start_date=None):
                                  attr,
                                  True,
                                  start_date,
-                                 attr,
+                                 "",
                                  show_legend=False) + pts_charts([pygal.StackedBar,
                                                                   pygal.Treemap,
                                                                   ],
@@ -408,7 +408,7 @@ def can_attr_view(attr, start_date=None):
                                                                  attr,
                                                                  False,
                                                                  start_date,
-                                                                 attr,
+                                                                 "",
                                                                  show_legend=False,
                                                                  legend_at_bottom=True)
 
@@ -1291,7 +1291,7 @@ def pts_charts(
                                 [update_last_data])
 
                 chart.x_labels = sorted_reports
-                chart.title = attr
+                chart.title = title
                 chart.x_labels_major = [w for w in sorted_reports if w[1] == 1]
             else:  # daily sample
 
@@ -1360,7 +1360,7 @@ def pts_charts(
                 chart.x_labels = sorted_reports
                 chart.x_labels_major = [
                     d for d in sorted_reports if d[8:] == '01' and d[5:7] in ['01', '07']]
-                chart.title = attr
+                chart.title = title
         else:
 
             chart = pygal_chart(height=280, **kwargs)

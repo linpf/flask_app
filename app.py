@@ -403,7 +403,7 @@ def can_attr_view(attr, start_date=None):
                                                                  attr,
                                                                  False,
                                                                  start_date,
-                                                                 show_legend=True,
+                                                                 show_legend=False,
                                                                  legend_at_bottom=True)
 
     pt_filename = attr + "_pt.csv"
@@ -430,7 +430,7 @@ def can_attr_view(attr, start_date=None):
             'charts.html',
             charts=[charts_set1[0], charts_set2[0],
                     charts_set1[2], charts_set2[2],
-                    chart1, chart2,
+                    #chart1, chart2,
                     charts_set1[1], charts_set2[1],
                     charts_set1[3], charts_set2[3]],
             page_title=page_title,
@@ -519,14 +519,14 @@ def pts_view(start_date=None):
                                      sample_by_week,
                                      start_date,
                                      show_last_item=False,
-                                     show_legend=True,
+                                     show_legend=False,
                                      dots_size=1,
                                      legend_at_bottom=True))
 
             charts.append(can_pts_summary_chart(
                 pygal.Treemap,
                 [(attr, False), ],
-                legend_at_bottom=True, show_x_labels=True))
+                legend_at_bottom=True, show_x_labels=True, show_legend=False))
 
     return render_template(
         'charts.html',

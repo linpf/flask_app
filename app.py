@@ -774,8 +774,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url +
-                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url + \
+                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]

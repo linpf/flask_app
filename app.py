@@ -505,8 +505,13 @@ def pts_view(start_date=None):
                                      start_date,
                                      show_last_item=False,
                                      show_legend=True,
-                                     dots_size=1,
                                      legend_at_bottom=True))
+
+            charts.append(can_pts_summary_chart(
+                pygal.Treemap,
+                [("vaccine_administration_dose_" + attr[-1:], False), ],
+                legend_at_bottom=True, show_x_labels=True, show_legend=True))
+
         else:
             charts.extend(pts_charts([pygal.Treemap],
                                      cumulated,
@@ -518,10 +523,10 @@ def pts_view(start_date=None):
                                      dots_size=1,
                                      legend_at_bottom=True))
 
-        charts.append(can_pts_summary_chart(
-            pygal.HorizontalStackedBar,
-            [(attr, False), ],
-            legend_at_bottom=True, show_x_labels=True))
+            charts.append(can_pts_summary_chart(
+                pygal.Treemap,
+                [(attr, False), ],
+                legend_at_bottom=True, show_x_labels=True))
 
     return render_template(
         'charts.html',
@@ -694,7 +699,8 @@ def hr_view(region, sub_region_1, start_date=None):
         'charts.html',
         charts=charts,
         page_title=hr_short_name.get(
-            sub_region_1, sub_region_1) + ", " + region,
+            sub_region_1,
+            sub_region_1) + ", " + pt_name_canonical[region] + " (" + region + ")",
         attr="cases",
         updated_date=read_update_time())
 
@@ -768,8 +774,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url + \
-                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url +
+                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]
@@ -1347,7 +1353,7 @@ def pts_charts(
                 chart.title = attr
         else:
 
-            chart = pygal_chart(height=280, show_legend=False)
+            chart = pygal_chart(height=280, **kwargs)
 
             for group in sorted_groups:
 
@@ -1632,6 +1638,7 @@ def can_pts_summary_chart(pygal_chart_class, attrs, **kwargs):
                    'xlink': {"href": request.host_url + "pt_view/" + pt,
                              "target": "_top"}}, data)
     # chart.x_labels = names
+    chart.title = attr
 
     return chart.render_data_uri()
 

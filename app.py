@@ -785,8 +785,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url +
-                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url + \
+                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]
@@ -1233,7 +1233,7 @@ def pts_charts(
 
             if show_last_item:
                 extra_chart = pygal.Bar(
-                    height=280, show_legend=False, legend_at_bottom=True,)
+                    height=280, show_legend=True, legend_at_bottom=True,)
                 extra_chart.x_labels = [attr]
 
             if sample_by_week:
@@ -1267,8 +1267,8 @@ def pts_charts(
                                     "title": group,
                                     'xlink': {
                                         "href": request.host_url +
-                                        "pt_attr_view/" +
-                                        group + "/" + attr + "/" + start_date_,
+                                        "pt_view/" +
+                                        group + "/" + start_date_,
                                         "target": "_top"}},
                                 [update_last_data])
 
@@ -1288,7 +1288,7 @@ def pts_charts(
                                     "title": group,
                                     'xlink': {
                                         "href": request.host_url +
-                                        "pt_attr_view/" + group + "/" + attr,
+                                        "pt_view/" + group,
                                         "target": "_top"}},
                                 [update_last_data])
 
@@ -1330,10 +1330,8 @@ def pts_charts(
                                     "title": group,
                                     'xlink': {
                                         "href": request.host_url +
-                                        "pt_attr_view/" +
+                                        "pt_view/" +
                                         group +
-                                        "/" +
-                                        attr +
                                         "/" +
                                         start_date_,
                                         "target": "_top"}},

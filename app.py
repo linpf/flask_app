@@ -390,7 +390,7 @@ def can_attr_view(attr, start_date=None):
                                                                  [attr],
                                                                  False,
                                                                  start_date,
-                                                                 show_legend=True,
+                                                                 show_legend=False,
                                                                  legend_at_bottom=True)
 
         charts_set2 = pts_charts([pygal.StackedBar,
@@ -538,6 +538,19 @@ def pts_view(start_date=None):
                 pygal.Treemap,
                 [(attr, False), ], "",
                 legend_at_bottom=True, show_x_labels=True, show_legend=False))
+
+        if attr in ["cases", "deaths"]:
+
+            charts.append(
+                pt_hr_chart(
+                    pygal.Treemap,
+                    attr,
+                    title="",
+                    show_legend=False))
+            charts.append(can_pts_summary_chart(
+                pygal.HorizontalStackedBar,
+                [(attr, False), ], "",
+                legend_at_bottom=True, show_x_labels=True, show_legend=True))
 
     return render_template(
         'charts.html',
@@ -785,8 +798,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url + \
-                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url +
+                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]
@@ -1957,14 +1970,14 @@ def pts_weekly_chart(
     return chart.render_data_uri()
 
 
-def pt_hr_chart(pygal_chart, filename, title="", **kwargs):
+def pt_hr_chart(pygal_chart, attr, title="", **kwargs):
 
     data_x_y = {}
     groups = {}
     hrs = {}
     regions = {}
 
-    with open(filename, 'r') as file:
+    with open(hr_folder_path + attr + "_hr.csv", 'r') as file:
         csv_file = csv.DictReader(file)
         for row_data in csv_file:
             hr = row_data["sub_region_1"]

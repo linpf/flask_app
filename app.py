@@ -435,10 +435,12 @@ def can_attr_view(attr, start_date=None):
         return render_template(
             'charts.html',
             charts=[charts_set1[0], charts_set2[0],
-                    charts_set1[2], charts_set2[2],
-                    #chart1, chart2,
                     charts_set1[1], charts_set2[1],
-                    charts_set1[3], charts_set2[3]],
+                    charts_set1[2], charts_set2[2],
+                    charts_set1[3], charts_set2[3],
+                    #chart1, chart2,
+                    ],
+
             page_title=page_title,
             updated_date=read_update_time(),
             start_date=start_date,
@@ -1588,7 +1590,7 @@ def pt_cumulated_dateline_chart(filename, start_date=None, **kwargs):
     return chart.render_data_uri()
 
 
-def pt_summary_chart(pygal_chart_class, filename, **kwargs):
+def pt_summary_chart(pygal_chart, filename, **kwargs):
 
     pt_value = {}
     pt_date = {}
@@ -1601,7 +1603,7 @@ def pt_summary_chart(pygal_chart_class, filename, **kwargs):
             pt_date[row_data["region"]] = row_data["date"]
 
         sorted_pts = sorted(pt_value.keys(), key=lambda k: -pt_value[k])
-        chart = pygal_chart_class(height=280, **kwargs)
+        chart = pygal_chart(height=280, **kwargs)
         chart.x_labels = [row_data["name"]]
         for pt in sorted_pts:
             chart.add({"title": pt,
@@ -1612,7 +1614,7 @@ def pt_summary_chart(pygal_chart_class, filename, **kwargs):
         return chart.render_data_uri()
 
 
-def can_pts_summary_chart(pygal_chart_class, attrs, title, **kwargs):
+def can_pts_summary_chart(pygal_chart, attrs, title, **kwargs):
 
     pt_value = {}
     pt_date = {}
@@ -1638,7 +1640,7 @@ def can_pts_summary_chart(pygal_chart_class, attrs, title, **kwargs):
     sorted_pts = sorted(list(pts), key=lambda k: -
                         sum([pt_value[(name, k)] for name in names]))
 
-    chart = pygal_chart_class(height=280, **kwargs)
+    chart = pygal_chart(height=280, **kwargs)
     for pt in sorted_pts:
         data = [{"value": pt_value[(name, pt)], "label": pt_date[(name, pt)],
                  "xlink": {"href": request.host_url + "pt_attr_view/" + pt + "/" + name,
@@ -1653,7 +1655,7 @@ def can_pts_summary_chart(pygal_chart_class, attrs, title, **kwargs):
     return chart.render_data_uri()
 
 
-def pt_hrs_summary_chart(region, pygal_chart_class, attrs, **kwargs):
+def pt_hrs_summary_chart(region, pygal_chart, attrs, **kwargs):
 
     hr_value = {}
     hr_date = {}
@@ -1679,7 +1681,7 @@ def pt_hrs_summary_chart(region, pygal_chart_class, attrs, **kwargs):
 
     sorted_hrs = sorted(list(hrs), key=lambda k: -
                         sum([hr_value.get((name, k), 0) for name in names]))
-    chart = pygal_chart_class(height=280, **kwargs)
+    chart = pygal_chart(height=280, **kwargs)
     for hr in sorted_hrs:
         data = [{"value": hr_value.get((name, hr), None), "label": hr_date.get(
             (name, hr), None)} for name in names]
@@ -1691,7 +1693,7 @@ def pt_hrs_summary_chart(region, pygal_chart_class, attrs, **kwargs):
     return chart.render_data_uri()
 
 
-def hr_summary_chart(region, pygal_chart_class, filename, **kwargs):
+def hr_summary_chart(region, pygal_chart, filename, **kwargs):
 
     hr_value = {}
     hr_date = {}
@@ -1705,7 +1707,7 @@ def hr_summary_chart(region, pygal_chart_class, filename, **kwargs):
                 hr_date[row_data["sub_region_1"]] = row_data["date"]
 
         sorted_hrs = sorted(hr_value.keys(), key=lambda k: -hr_value[k])
-        chart = pygal_chart_class(height=280, **kwargs)
+        chart = pygal_chart(height=280, **kwargs)
         chart.x_labels = [row_data["name"]]
         for hr in sorted_hrs:
             chart.add({"title": hr_short_name.get(hr,
@@ -1720,7 +1722,7 @@ def hr_summary_chart(region, pygal_chart_class, filename, **kwargs):
 def hr_summary_chart2(
         region,
         sub_region_1,
-        pygal_chart_class,
+        pygal_chart,
         value_daily,
         files,
         **kwargs):
@@ -1743,7 +1745,7 @@ def hr_summary_chart2(
                     hr_date[row_data["name"]] = row_data["date"]
             names.append(row_data["name"])
 
-    chart = pygal_chart_class(height=280, **kwargs)
+    chart = pygal_chart(height=280, **kwargs)
 
     for name in names:
         data = [{"value": hr_value[name], "label": hr_date[name]}]
@@ -1869,7 +1871,7 @@ def hrs_chart(attr, sample_by_week=True, **kwargs):
     return chart.render_data_uri()
 
 
-def hr_chart(pygal_chart_class, attr, **kwargs):
+def hr_chart(pygal_chart, attr, **kwargs):
 
     hr_value = {}
     with open(hr_folder_path + attr + "_hr.csv", 'r') as file:
@@ -1882,7 +1884,7 @@ def hr_chart(pygal_chart_class, attr, **kwargs):
         sorted_hrs = sorted(
             hr_value.keys(),
             key=lambda k: -hr_value[k])
-        chart = pygal_chart_class(height=280, **kwargs)
+        chart = pygal_chart(height=280, **kwargs)
         for k in sorted_hrs:
             if k[1] in hr_short_name:
                 name = k[0] + "," + hr_short_name[k[1]]

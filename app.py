@@ -239,7 +239,7 @@ def pt_attr_view(region, attr, start_date=None):
         cumulated = True
 
     charts_set = pt_charts(region,
-                           [pygal.Bar, pygal.Pie,  # pygal.Radar,
+                           [pygal.Bar, pygal.Pie,
                             pygal.Line,
                             pygal.Treemap],
                            cumulated,
@@ -247,7 +247,7 @@ def pt_attr_view(region, attr, start_date=None):
                            True,
                            start_date) + pt_charts(region,
                                                    [pygal.Bar,
-                                                    pygal.Pie,  # pygal.Radar,
+                                                    pygal.Pie,
                                                     pygal.Line,
                                                     pygal.Treemap],
                                                    cumulated,
@@ -806,8 +806,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url + \
-                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url +
+                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]
@@ -1116,7 +1116,7 @@ def pt_charts(
 
     for pygal_chart in pygal_charts:
 
-        if pygal_chart == pygal.Bar:
+        if pygal_chart in [pygal.Bar, pygal.Treemap, pygal.Line]:
             chart = pygal_chart(
                 height=272,
                 show_legend=False,

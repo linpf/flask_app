@@ -16,7 +16,7 @@ pt_folder_path = "data/CovidTimelineCanada/data/pt/"
 hr_folder_path = "data/CovidTimelineCanada/data/hr/"
 
 
-def read_hrid_2_name_maping_table():
+def read_hrid2name_mapping():
 
     with open("data/CovidTimelineCanada/geo/hr.csv", 'r') as file:
         csv_file = csv.DictReader(file)
@@ -26,7 +26,7 @@ def read_hrid_2_name_maping_table():
             hr_region[row_data["hruid"]] = row_data["region"]
 
 
-def read_region_2_name_canonical_maping_table():
+def read_region2name_canonical_mapping():
 
     with open("data/CovidTimelineCanada/geo/pt.csv", 'r') as file:
         csv_file = csv.DictReader(file)
@@ -38,14 +38,14 @@ def read_region_2_name_canonical_maping_table():
 app = Flask(__name__)
 Bootstrap5(app)
 cache = Cache(app, config={'CACHE_TYPE': 'simple'})
-read_hrid_2_name_maping_table()
-read_region_2_name_canonical_maping_table()
+read_hrid2name_mapping()
+read_region2name_canonical_mapping()
 
 
 @app.route('/')
 @app.route('/can')
 @app.route('/can/<start_date>')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def home(start_date=None):
 
     chart1 = can_weekly_attrs_chart(pygal.StackedBar,
@@ -142,7 +142,7 @@ def home(start_date=None):
 
 
 @app.route('/hrs_view')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def hrs_view():
 
     chart1 = hrs_chart(
@@ -195,7 +195,7 @@ def hrs_view():
 
 @app.route('/hr_attr_view/<region>/<sub_region_1>/<attr>/<start_date>')
 @app.route('/hr_attr_view/<region>/<sub_region_1>/<attr>')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def hr_attr_view(region, sub_region_1, attr, start_date=None):
 
     charts_set = hr_charts(region,
@@ -227,7 +227,7 @@ def hr_attr_view(region, sub_region_1, attr, start_date=None):
 
 @app.route('/pt_attr_view/<region>/<attr>/<start_date>')
 @app.route('/pt_attr_view/<region>/<attr>')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def pt_attr_view(region, attr, start_date=None):
     if attr in ["cases", "deaths", "tests_completed"]:
         cumulated = False
@@ -265,7 +265,7 @@ def pt_attr_view(region, attr, start_date=None):
 @app.route('/pts_attr_view/<attr>/<start_date>')
 @app.route('/pts_attr_view/<attr>/')
 @app.route('/pts_attr_view/<attr>')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def pts_attr_view(attr, start_date=None):
     if attr in ["cases", "deaths", "tests_completed"]:
         cumulated = False
@@ -298,7 +298,7 @@ def pts_attr_view(attr, start_date=None):
 
 @app.route('/can_attr_view/<attr>')
 @app.route('/can_attr_view/<attr>/<start_date>')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def can_attr_view(attr, start_date=None):
 
     if attr in ["cases", "deaths", "tests_completed"]:
@@ -459,7 +459,7 @@ def can_attr_view(attr, start_date=None):
 
 @app.route('/pts_view/')
 @app.route('/pts_view/<start_date>/')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def pts_view(start_date=None):
 
     charts = []
@@ -561,7 +561,7 @@ def pts_view(start_date=None):
 
 @app.route('/pt_view/<region>')
 @app.route('/pt_view/<region>/<start_date>')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def pt_view(region, start_date=None):
 
     chart1 = pt_weekly_attrs_chart(region,
@@ -671,7 +671,7 @@ def pt_view(region, start_date=None):
 
 @app.route('/hr_view/<region>/<sub_region_1>')
 @app.route('/hr_view/<region>/<sub_region_1>/<start_date>')
-@cache.cached(timeout=3600)
+@cache.cached(timeout=10000)
 def hr_view(region, sub_region_1, start_date=None):
 
     chart1 = hr_charts(region, sub_region_1, [pygal.Bar],
@@ -764,7 +764,7 @@ def can_weekly_attrs_chart(
 
     sorted_report_weeks = sorted(report_weeks)
 
-    chart = pygal_chart(height=280, show_x_guides=True,
+    chart = pygal_chart(height=272, show_x_guides=True,
                         show_minor_x_labels=False,
                         show_x_labels=True,
                         legend_at_bottom=True,
@@ -844,7 +844,7 @@ def pt_weekly_attrs_chart(
 
     sorted_report_weeks = sorted(report_weeks)
 
-    chart = pygal_chart(height=280, show_x_guides=True,
+    chart = pygal_chart(height=272, show_x_guides=True,
                         show_minor_x_labels=False,
                         show_x_labels=True,
                         legend_at_bottom=True,
@@ -918,7 +918,7 @@ def hr_weekly_chart_from_files(
 
     sorted_report_weeks = sorted(report_weeks)
 
-    chart = pygal_chart(height=280,
+    chart = pygal_chart(height=272,
                         show_x_guides=True,
                         show_minor_x_labels=False,
                         show_x_labels=True,
@@ -992,7 +992,7 @@ def hr_charts(
 
         if pygal_chart in [pygal.Bar, pygal.StackedBar, pygal.Line]:
             chart = pygal_chart(
-                height=280,
+                height=272,
                 show_legend=True,
                 show_x_guides=True,
                 show_minor_x_labels=False,
@@ -1025,7 +1025,7 @@ def hr_charts(
                     d for d in sorted_reports if d[8:] == "01" and d[5:7] in ["01", "07"]]
 
         else:
-            chart = pygal_chart(height=280, show_legend=False, **kwargs)
+            chart = pygal_chart(height=272, show_legend=False, **kwargs)
 
             for group in groups:
 
@@ -1040,13 +1040,13 @@ def hr_charts(
 
         if already_cumulated:
             chart = pygal.HorizontalBar(
-                height=280,
+                height=272,
                 show_legend=True,
                 legend_at_bottom=True,
                 **kwargs)
         else:
             chart = pygal.Bar(
-                height=280,
+                height=272,
                 show_legend=True,
                 legend_at_bottom=True,
                 **kwargs)
@@ -1110,7 +1110,7 @@ def pt_charts(
 
         if pygal_chart == pygal.Bar:
             chart = pygal_chart(
-                height=280,
+                height=272,
                 show_legend=False,
                 show_x_guides=True,
                 show_minor_x_labels=False,
@@ -1159,7 +1159,7 @@ def pt_charts(
 
         elif pygal_chart == pygal.Pie:
             chart = pygal_chart(
-                height=280,
+                height=272,
                 inner_radius=.4,
                 show_legend=False,
                 **kwargs)
@@ -1171,7 +1171,7 @@ def pt_charts(
 
                 chart.add({"title": group, }, timeseries_data)
         else:
-            chart = pygal_chart(height=280, show_legend=False, **kwargs)
+            chart = pygal_chart(height=272, show_legend=False, **kwargs)
 
             for group in groups:
 
@@ -1236,7 +1236,7 @@ def pts_charts(
 
         if pygal_chart in [pygal.Bar, pygal.StackedBar, pygal.Line]:
             chart = pygal_chart(
-                height=280,
+                height=272,
                 # show_legend=False,
                 show_x_guides=True,
                 show_minor_x_labels=False,
@@ -1246,7 +1246,7 @@ def pts_charts(
 
             if show_last_item:
                 extra_chart = pygal.Bar(
-                    height=280, show_legend=True, legend_at_bottom=True,)
+                    height=272, show_legend=True, legend_at_bottom=True,)
                 extra_chart.x_labels = [attr]
 
             if sample_by_week:
@@ -1376,7 +1376,7 @@ def pts_charts(
                 chart.title = title
         else:
 
-            chart = pygal_chart(height=280, **kwargs)
+            chart = pygal_chart(height=272, **kwargs)
 
             for group in sorted_groups:
 
@@ -1443,7 +1443,7 @@ def can_charts(
 
         if pygal_chart in [pygal.Bar, pygal.Line, pygal.StackedBar]:
             chart = pygal_chart(
-                height=280,
+                height=272,
                 show_x_guides=True,
                 show_minor_x_labels=False,
                 show_x_labels=True,
@@ -1499,7 +1499,7 @@ def can_charts(
                     d for d in sorted_reports if d[8:] == '01' and d[5:7] in ["01", "07"]]
 
         else:
-            chart = pygal_chart(height=280, show_legend=False)
+            chart = pygal_chart(height=272, show_legend=False)
 
             for group in groups:
 
@@ -1537,7 +1537,7 @@ def pt_dateline_chart(filename, start_date=None, **kwargs):
     sorted_report_days = sorted(list(report_days))
 
     chart = pygal.DateLine(
-        height=280,
+        height=272,
         x_label_rotation=0.01,
         show_x_guides=True, **kwargs)
 
@@ -1581,7 +1581,7 @@ def pt_cumulated_dateline_chart(filename, start_date=None, **kwargs):
     sorted_report_days = sorted(list(report_days))
 
     chart = pygal.DateLine(
-        height=280,
+        height=272,
         x_label_rotation=0.01,
         show_x_guides=True, **kwargs)
 
@@ -1614,7 +1614,7 @@ def pt_summary_chart(pygal_chart, filename, **kwargs):
             pt_date[row_data["region"]] = row_data["date"]
 
         sorted_pts = sorted(pt_value.keys(), key=lambda k: -pt_value[k])
-        chart = pygal_chart(height=280, **kwargs)
+        chart = pygal_chart(height=272, **kwargs)
         chart.x_labels = [row_data["name"]]
         for pt in sorted_pts:
             chart.add({"title": pt,
@@ -1651,7 +1651,7 @@ def can_pts_summary_chart(pygal_chart, attrs, title, **kwargs):
     sorted_pts = sorted(list(pts), key=lambda k: -
                         sum([pt_value[(name, k)] for name in names]))
 
-    chart = pygal_chart(height=280, **kwargs)
+    chart = pygal_chart(height=272, **kwargs)
     for pt in sorted_pts:
         data = [{"value": pt_value[(name, pt)], "label": pt_date[(name, pt)],
                  "xlink": {"href": request.host_url + "pt_attr_view/" + pt + "/" + name,
@@ -1692,7 +1692,7 @@ def pt_hrs_summary_chart(region, pygal_chart, attrs, **kwargs):
 
     sorted_hrs = sorted(list(hrs), key=lambda k: -
                         sum([hr_value.get((name, k), 0) for name in names]))
-    chart = pygal_chart(height=280, **kwargs)
+    chart = pygal_chart(height=272, **kwargs)
     for hr in sorted_hrs:
         data = [{"value": hr_value.get((name, hr), None), "label": hr_date.get(
             (name, hr), None)} for name in names]
@@ -1718,7 +1718,7 @@ def hr_summary_chart(region, pygal_chart, filename, **kwargs):
                 hr_date[row_data["sub_region_1"]] = row_data["date"]
 
         sorted_hrs = sorted(hr_value.keys(), key=lambda k: -hr_value[k])
-        chart = pygal_chart(height=280, **kwargs)
+        chart = pygal_chart(height=272, **kwargs)
         chart.x_labels = [row_data["name"]]
         for hr in sorted_hrs:
             chart.add({"title": hr_short_name.get(hr,
@@ -1756,7 +1756,7 @@ def hr_summary_chart2(
                     hr_date[row_data["name"]] = row_data["date"]
             names.append(row_data["name"])
 
-    chart = pygal_chart(height=280, **kwargs)
+    chart = pygal_chart(height=272, **kwargs)
 
     for name in names:
         data = [{"value": hr_value[name], "label": hr_date[name]}]
@@ -1804,7 +1804,7 @@ def hr_dateline_chart(filename):
     sorted_report_days = sorted(list(report_days))
 
     chart = pygal.DateLine(
-        height=280,
+        height=272,
         dots_size=1,
         show_legend=True,
         x_label_rotation=0.01,
@@ -1853,7 +1853,7 @@ def hrs_chart(attr, sample_by_week=True, **kwargs):
     sorted_reports = sorted(reports)
 
     chart = pygal.StackedBar(
-        height=280,
+        height=272,
         show_x_guides=True,
         show_minor_x_labels=False,
         show_x_labels=True,
@@ -1895,7 +1895,7 @@ def hr_chart(pygal_chart, attr, **kwargs):
         sorted_hrs = sorted(
             hr_value.keys(),
             key=lambda k: -hr_value[k])
-        chart = pygal_chart(height=280, **kwargs)
+        chart = pygal_chart(height=272, **kwargs)
         for k in sorted_hrs:
             if k[1] in hr_short_name:
                 name = k[0] + "," + hr_short_name[k[1]]
@@ -1942,7 +1942,7 @@ def pts_weekly_chart(
 
     sorted_report_weeks = sorted(report_weeks)
 
-    chart = pygal_chart(height=280, **kwargs)
+    chart = pygal_chart(height=272, **kwargs)
 
     sorted_groups = sorted(groups.keys(), key=lambda k: -groups[k])
     for group in sorted_groups:
@@ -2000,13 +2000,13 @@ def pt_hr_chart(pygal_chart, attr, title="", **kwargs):
         key=lambda hr: -
         hrs[hr] if hr != "999" else 0)
 
-    chart = pygal_chart(height=280, **kwargs)
+    chart = pygal_chart(height=272, **kwargs)
 
     sorted_groups = sorted(groups.keys(), key=lambda k: -groups[k])
     for group in sorted_groups:
         if pygal_chart in [pygal.Treemap, pygal.Pie]:
             timeseries_data = [{"value": data_x_y[(hr, group)], "label": hr_short_name.get(
-                str(hr), "Unknown")} for hr in sorted_report_hrs if (hr, group) in data_x_y]
+                str(hr), hr)} for hr in sorted_report_hrs if (hr, group) in data_x_y]
         else:
             timeseries_data = []
             for hr in sorted_report_hrs:

@@ -1,6 +1,8 @@
 # flask_app
 
-***
+## Purpose 
+
+Interactive data visualizations of COVID-19 in Canada
 
 ## Canada
 
@@ -15,7 +17,6 @@
 
 ![Screenshot from 2023-04-09 23-13-24](https://user-images.githubusercontent.com/7608750/230838877-29b37076-56a8-42c8-a6df-a9095b5e3a31.png)
 
-## Interactive data visualizations of COVID-19
 
 ## PythonAnywhere Deploymment 
 

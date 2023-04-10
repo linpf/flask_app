@@ -550,7 +550,7 @@ def pts_view(start_date=None):
             charts.append(can_pts_summary_chart(
                 pygal.HorizontalStackedBar,
                 [(attr, False), ], "",
-                legend_at_bottom=True, show_x_labels=True, show_legend=True))
+                legend_at_bottom=True, show_x_labels=True, show_legend=False))
 
     return render_template(
         'charts.html',

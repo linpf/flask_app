@@ -184,11 +184,15 @@ def hrs_view():
         "cases",
         show_legend=False)
 
-    charts = [chart1, chart2, chart3, chart4, chart5, chart6, chart7, chart8]
+    #charts = [chart1, chart2, chart3, chart4, chart5, chart6, chart7, chart8]
+    charts = [chart2, chart4, chart6, chart8, chart1, chart3, chart5, chart7, ]
+
+    page_title = "Health Regions"
 
     return render_template(
         'charts.html',
         charts=charts,
+        page_title=page_title,
         attr="cases",
         updated_date=read_update_time())
 
@@ -251,11 +255,15 @@ def pt_attr_view(region, attr, start_date=None):
                                                    False,
                                                    start_date)
 
+    chart1, chart2, chart3, chart4, chart5, chart6, chart7, chart8 = charts_set
+
     page_title = region + " - " + attr.upper()
+
+    charts = [chart1, chart5, chart3, chart7, chart4, chart8, chart2, chart6]
 
     return render_template(
         'charts.html',
-        charts=charts_set,
+        charts=charts,
         attr=attr,
         start_date=start_date,
         page_title=page_title,
@@ -798,8 +806,8 @@ def can_weekly_attrs_chart(
                         "target": "_top"}},
                 timeseries_data)
         else:
-            chart.add({"title": group, 'xlink': {"href": request.host_url +
-                                                 "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
+            chart.add({"title": group, 'xlink': {"href": request.host_url + \
+                      "can_attr_view/" + group, "target": "_top"}}, timeseries_data)
 
     chart.x_labels = sorted_report_weeks
     chart.x_labels_major = [w for w in sorted_report_weeks if w[1] == 1]

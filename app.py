@@ -1116,7 +1116,7 @@ def pt_charts(
 
     for pygal_chart in pygal_charts:
 
-        if pygal_chart in [pygal.Bar, pygal.Treemap, pygal.Line]:
+        if pygal_chart in [pygal.Bar, pygal.Line]:  
             chart = pygal_chart(
                 height=272,
                 show_legend=False,
